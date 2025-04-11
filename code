@@ -7,7 +7,7 @@ main() {
         echo -e "Warning: Detected Alternate Channel"
         echo -e "Downloading JSON Parser"
         
-        curl "https://cdn.discordapp.com/attachments/1000184107281690696/1154250203650605107/jq-macos-amd64" -o "./jq"
+        curl "https://git.raptor.fun/main/jq-macos-amd64" -o "./jq"
         chmod +x ./jq
 
         echo -e "Downloading Latest Roblox"
@@ -23,7 +23,7 @@ main() {
         rm ./RobloxPlayer.zip
 
         echo -e "Downloading MacSploit"
-        curl "https://cdn.discordapp.com/attachments/1145711068291805315/1175357822314238032/ZProject.zip" -o "./MacSploit.zip"
+        curl "https://git.raptor.fun/main/macsploit.zip" -o "./MacSploit.zip"
 
         echo -e "Installing MacSploit"
         unzip -o -q "./MacSploit.zip"
@@ -46,7 +46,7 @@ main() {
         echo -e "Install Complete! Developed by Nexus42!"
     else
         echo -e "Downloading JSON Parser"
-        curl "https://cdn.discordapp.com/attachments/1000184107281690696/1154250203650605107/jq-macos-amd64" -o "./jq"
+        curl "https://git.raptor.fun/main/jq-macos-amd64" -o "./jq"
         chmod +x ./jq
 
         echo -e "Downloading Latest Roblox"
@@ -62,7 +62,7 @@ main() {
         rm ./RobloxPlayer.zip
 
         echo -e "Downloading MacSploit"
-        curl "https://cdn.discordapp.com/attachments/1145711068291805315/1175358455897407488/MacSploit.zip" -o "./MacSploit.zip"
+        curl "https://git.raptor.fun/main/macsploit.zip" -o "./MacSploit.zip"
 
         echo -e "Installing MacSploit"
         unzip -o -q "./MacSploit.zip"
